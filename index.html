@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Creative Lab</h1>
+        <div class="filter-wrapper">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="design">UI/UX Design</button>
+            <button class="filter-btn" data-filter="dev">Development</button>
+        </div>
+    </header>
+
+    <div class="gallery" id="gallery">
+        <div class="card" data-category="design">
+            <div class="glow"></div>
+            <div class="content">
+                <span>Design</span>
+                <h3>Nebula Interface</h3>
+                <p>A deep-space inspired UI kit.</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="dev">
+            <div class="glow"></div>
+            <div class="content">
+                <span>Dev</span>
+                <h3>Neural Engine</h3>
+                <p>JavaScript logic for AI simulations.</p>
+            </div>
+        </div>
+
+        <div class="card" data-category="dev">
+            <div class="glow"></div>
+            <div class="content">
+                <span>Dev</span>
+                <h3>Crypto Tracker</h3>
+                <p>Real-time data visualization dashboard.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
